@@ -27,6 +27,6 @@ https://www.researchgate.net/publication/237453528_RECOVERY_PLAN_FOR_THE_BLUE_WH
  
 ## Plataform
 
-  The simpleACT software was developed and designed for fitting in a **358x705 size** screen(Iphone 6/7/8) and has the objective 
+  The smallACT software was developed and designed for fitting in a **358x705 size** screen(Iphone 6/7/8) and has the objective 
 of showing a first impression of how the app works. 
 
