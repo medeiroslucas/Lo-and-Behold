@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
+   <style>
       #map {
-        height:33em;  
-        width: 19em;
-       }
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
     </style>
+
   </head>
   
 <body>
@@ -18,7 +23,7 @@
       
 
       var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 10, center: my_pos});
+      document.getElementById('map'), {zoom: 11, center: my_pos});
       var ter = {lat: -15.803490, lng:  -47.940521};
       var marker = new google.maps.Marker({position: ter, map: map});
       
