@@ -8,7 +8,7 @@
         height: 216px;
         font-weight: 800;
         line-height: 1.08;
-        margin-top: 287px;
+        margin-top: 285px;
         margin-left: 39px;
     }
 
@@ -18,14 +18,15 @@
         font-size: 13px;
         font-weight: 800;
         color: #f2f5f7;
-        margin-top: 656;
-        margin-left: 133px;
+        margin-top: 65px;
+        margin-left: 70px;
     }
 
 </style>
 
 <html lang="en">
 <head>
+	<script src="jquery-3.3.1.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -35,7 +36,35 @@
 </head>
 <body style="background-color: #4a90e2">
     <div id="div_descarte" aling="justify">Quero descartar um(a)</div>
-    <hr width="80%" color= "#fff" size="3px">
-    <div id="div_final">veja locais mais próximos <i class="tiny material-icons">arrow_forward</i></div>
+   
+	
+  <script>
+  $(document).ready(function(){
+    $('input.autocomplete').autocomplete({
+      	data: {
+        	"Pilha": null,
+        	"Eletrônica": null,
+      	},
+    	});
+  	});
+    </script>
+
+	<div class="row">
+	    <div class="col s12">
+	      <div class="row">
+	        <div class="input-field col s12">
+	          <!-- <i class="material-icons prefix">textsms</i> -->
+	          <input type="text" id="autocomplete-input" class="autocomplete">
+	          <label for="autocomplete-input">Digite Aqui</label>
+	        </div>
+	      </div>
+	    </div>
+	 </div>
+
+    <a href="mapapilhas.html">
+		<div id="div_final" align="center">Veja os locais mais próximos <i class="tiny material-icons">arrow_forward</i></div>
+	</a>
 </body>
 </html>
+
+
