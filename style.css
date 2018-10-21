@@ -1,0 +1,70 @@
+.Rectangle-2-Copy {
+    width: 375px;
+    height: 705px;
+    background-color: #f5a623;
+}
+
+.-smallACT- {
+    width: 114px;
+    height: 24px;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+  }
+.-smallACT- .text-style-1 {
+    font-weight: 800;
+}
+
+.Por-onde-quer-comea {
+    width: 274px;
+    height: 29px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Uma-pequeno-ato-caus {
+    width: 224px;
+    height: 32px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+#div_logo{
+    color: #fff;
+    margin: 39px;
+    font-size: 20px;
+}
+
+#div_comecar{
+    color: #fff;
+    margin: 10px;
+    font-family: Gilroy;
+    font-weight: 800;   
+}
+
+#div_text{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+}
