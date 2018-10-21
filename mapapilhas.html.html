@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height:33em;  
+        width: 19em;
+       }
+    </style>
+  </head>
+  
+<body>
+    <div id="map"></div>
+    <script>
+
+    function initMap() {
+      var my_pos = {lat: -15.757221, lng: -47.878525};
+      
+
+      var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 10, center: my_pos});
+      var ter = {lat: -15.803490, lng:  -47.940521};
+      var marker = new google.maps.Marker({position: ter, map: map});
+      
+      var ter2 = {lat: -15.803490, lng:  -47.740521};
+      var marker2 = new google.maps.Marker({position: ter2, map: map});
+      
+      var ter3 = {lat: -15.903490, lng:  -47.940521};
+      var marker3 = new google.maps.Marker({position: ter3, map: map});
+    }
+</script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwXg-XwFbc-UtATfmSWE4VT7ft35h5u9Q&callback=initMap">
+</script>
+</body>
+
+</html>
